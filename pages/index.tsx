@@ -5,6 +5,7 @@ const Home: NextPage = () => {
     return (
         <div className="page-container">
             <Header />
+            
         </div>
     );
 };
