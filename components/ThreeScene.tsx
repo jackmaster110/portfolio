@@ -13,7 +13,7 @@ export default function ThreeScene() {
 }
 
 function TorusMesh() {
-    const torusRef = useRef();
+    const torusRef = useRef<any>();
 
     useFrame(({ clock, camera }) => {
         if (torusRef.current) {
